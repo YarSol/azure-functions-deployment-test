@@ -1,5 +1,6 @@
 module.exports = async function (context, req, inputDocument) {
     context.log('UpdateBookById Function Triggered');
+    context.log('UpdateBookById Function Triggered');
 
     if (inputDocument.length === 0) 
         context.res = {
